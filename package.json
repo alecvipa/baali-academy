@@ -1,0 +1,25 @@
+{
+  "name": "baali-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecvipa/baali-academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alecvipa/baali-academy/issues"
+  },
+  "homepage": "https://github.com/alecvipa/baali-academy#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "nodemailer": "^6.6.5"
+  }
+}
