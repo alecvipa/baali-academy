@@ -1,0 +1,103 @@
+
+.lashesBanner{
+    height: 50rem;
+    background-image: url("/assets/images/baaliBannerPink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+
+}
+.titleFont{
+    font-family: 'Julius Sans One', sans-serif;
+}
+.paraFont{
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+.lashistaProfesional {
+    height: 25rem;
+    border-radius: 8pt;
+    margin-top: 12%;
+    margin-right: 2%;
+}
+.imgLashistaProfesional:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.imgCertificaciones:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.aplicacionPestañas{
+    height: 25rem;
+    border-radius: 8pt;
+    margin-top: 12%;
+    padding: 0%;
+}
+.navbar-toggler {
+    border-color: rgb(255,102,203) !important;
+    background-color: black !important;
+} 
+.logoBaaliNavBar{
+    height: 12rem;
+}
+.nav-link{
+    color: black !important;
+    
+}
+.nav-link:hover{
+    color: #DB4179 !important;
+}
+
+.btn-whats{
+    background-color: #25D366;
+    border-color: #25D366;
+}
+.aplicacionTitle{
+    color: #F1DCD5;
+    padding-top: 16%;
+    text-align: center;
+    text-decoration: underline;
+}
+.titleValueProp{
+    width: 57%;
+    color: #F1DCD5;
+    text-align: center;
+    margin-left: 24%;
+}
+.backgroundValueP{
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 8px;
+    padding: 3%;
+}
+
+
+@media(max-width:991px){
+	#header-wrap {
+		background: #fff!important;
+	}
+    .lashesBanner{
+        height: 100rem;
+    
+    }
+    .containerLashesProducts{
+        margin-top: 50%;
+    }
+    .titleValueProp{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+}
+@media(min-width:360px) and (max-width: 400px){
+
+    .imgLashistaProfesional{
+        margin-top: -20%;
+    }
+    .titleValueProp{
+        margin-top: -30%;
+    }
+}
