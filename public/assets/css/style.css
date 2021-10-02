@@ -10,12 +10,41 @@
     background-position: 25% 85%;
 
 }
+.lashistaProfesionalBanner{
+    height: 20rem;
+    background-image: url("/assets/images/lashesBn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0%;
+    
+}
 .titleFont{
     font-family: 'Julius Sans One', sans-serif;
+}
+.overlay{
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.363);
+  height: 100%;
+  width: 100%;
+  color: #F1DCD5 !important; 
+  padding-top: 4%;
+}
+.linkItemLashistaProfesional{
+    color:#F1DCD5;
+}
+.linkItemLashistaProfesional:hover{
+    color:#F1DCD5;
 }
 .paraFont{
     font-family: 'Julius Sans One', sans-serif;
     font-family: 'Urbanist', sans-serif;
+}
+.listItemLashistaProfesional{
+    background-color: rgba(0, 0, 0, 0.52);
+}
+.listItemLashistaProfesional:hover {
+    background-color: rgb(122, 122, 122);
 }
 .lashistaProfesional {
     height: 25rem;
@@ -73,14 +102,28 @@
     border-radius: 8px;
     padding: 3%;
 }
-
+.aplicacionesDiv{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    background-image: url("/assets/images/salon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+}
+.cardAplicacionesLash{
+    margin-bottom: 5%;
+}
 
 @media(max-width:991px){
 	#header-wrap {
 		background: #fff!important;
 	}
     .lashesBanner{
-        height: 100rem;
+        height: 70rem;
     
     }
     .containerLashesProducts{
@@ -89,6 +132,9 @@
     .titleValueProp{
         width: 100%;
         margin-left: 0%;
+    }
+    .cardAplicacionesLash{
+        margin-left: 10%;
     }
 
 }
@@ -99,5 +145,12 @@
     }
     .titleValueProp{
         margin-top: -30%;
+    }
+    .lashesBanner{
+        height: 65rem;
+    
+    }
+    .cardAplicacionesLash{
+        margin-left: 3%;
     }
 }
