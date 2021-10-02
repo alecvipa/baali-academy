@@ -12,7 +12,7 @@
 }
 .lashistaProfesionalBanner{
     height: 20rem;
-    background-image: url("/assets/images/lashesBn.png");
+    background-image: url("/assets/images/lashesBn.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,18 @@
 .cardAplicacionesLash{
     margin-bottom: 5%;
 }
-
+#footer-wrap {
+    background-color: #F1DCD5;
+}
+.fa-footer{
+    color: black !important;
+    margin: 1.5%;
+    margin-bottom: 3% !important;
+}
+.imgLogoFooter{
+    margin-left: 50%;
+    margin-top: -10%;
+}
 @media(max-width:991px){
 	#header-wrap {
 		background: #fff!important;
@@ -136,6 +147,9 @@
     .cardAplicacionesLash{
         margin-left: 10%;
     }
+    .imgLogoFooter{
+        margin-left: 45% ;
+    }
 
 }
 @media(min-width:360px) and (max-width: 400px){
@@ -152,5 +166,8 @@
     }
     .cardAplicacionesLash{
         margin-left: 3%;
+    }
+    .imgLogoFooter{
+        margin-left: 30% ;
     }
 }
