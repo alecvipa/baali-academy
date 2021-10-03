@@ -19,7 +19,7 @@
   
 }
 .lashistaProfesionalBanner{
-    height: 20rem;
+    height: 25rem;
     background-image: url("/assets/images/lashesBn.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 }
 .overlay{
   z-index: 9;
-  background: rgba(0, 0, 0, 0.363);
+  background: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   color: #F1DCD5 !important; 
@@ -167,7 +167,7 @@
         margin-left: 0%;
     }
     .cardAplicacionesLash{
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .imgLogoFooter{
         margin-left: 45% ;
@@ -178,6 +178,11 @@
     .privacidadBanner{
         height: 35rem;
         
+    }
+    .titleCompletaTresCursos{
+        font-size: 18pt;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 
 }
@@ -194,7 +199,7 @@
     
     }
     .cardAplicacionesLash{
-        margin-left: 3%;
+        margin-left: 0%;
     }
     .imgLogoFooter{
         margin-left: 30% ;
