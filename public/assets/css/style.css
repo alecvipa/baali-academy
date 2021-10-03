@@ -10,6 +10,14 @@
     background-position: 25% 85%;
 
 }
+.privacidadBanner{
+    height: 40rem;
+    background-image: url("/assets/images/cuteSalon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
 .lashistaProfesionalBanner{
     height: 20rem;
     background-image: url("/assets/images/lashesBn.jpeg");
@@ -129,6 +137,20 @@
     margin-left: 50%;
     margin-top: -10%;
 }
+.privacidadContainer{
+    padding-top: 22%;
+}
+.privacidadTitle{
+    background-color: rgba(255, 235, 205, 0.657);
+    border-radius: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;   
+}
+.tablePrivacidad{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 @media(max-width:991px){
 	#header-wrap {
 		background: #fff!important;
@@ -150,6 +172,13 @@
     .imgLogoFooter{
         margin-left: 45% ;
     }
+    .privacidadContainer{
+        padding-top: 72%;
+    }
+    .privacidadBanner{
+        height: 35rem;
+        
+    }
 
 }
 @media(min-width:360px) and (max-width: 400px){
@@ -170,4 +199,8 @@
     .imgLogoFooter{
         margin-left: 30% ;
     }
+    .privacidadContainer{
+        padding-top: 92%;
+    }
+
 }
