@@ -47,6 +47,25 @@
             return false;
         }
     </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '395697275608187');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=395697275608187&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body class="font1" data-spy="scroll" data-target="#lashistaItemLandingPage" data-offset="0">
@@ -57,7 +76,7 @@
                 <div class="container paraFont">
                     <nav id="navElement" class="navbar navbar-expand-lg navbar-dark">
                         <a href="/">
-                        <img src="assets/images/baaliLogo.png" alt="" class="logoBaaliNavBar"></a>
+                            <img src="assets/images/baaliLogo.png" alt="" class="logoBaaliNavBar"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -89,14 +108,16 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://www.instagram.com/baali.academy/?hl=es" target="_blank">
+                                    <a class="nav-link" href="https://www.instagram.com/baali.academy/?hl=es"
+                                        target="_blank">
                                         <span class="icon">
                                             <i class="fa fa-instagram fa-footer"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=+525553375092" target="_blank">
+                                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=+525553375092"
+                                        target="_blank">
                                         <span class="icon">
                                             <i class="fab fa-whatsapp fa-footer"></i>
                                         </span>
